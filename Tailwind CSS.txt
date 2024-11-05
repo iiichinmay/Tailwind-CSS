@@ -1,0 +1,29 @@
+CSS Property		 CSS Example			Tailwind CSS Class	  Explanation
+margin			 margin: 16px;	  		m-4			  Sets margin to 1rem (16px with default Tailwind scale).
+padding			 padding: 16px;	  		p-4			  Sets padding to 1rem (16px with default Tailwind scale).
+margin-top		 margin-top: 8px;  		mt-2			  Sets top margin to 0.5rem (8px).
+padding-right		 padding-right: 8px; 		pr-2			  Sets right padding to 0.5rem (8px).
+font-size		 font-size: 24px;		text-2xl		  Sets font size to 1.5rem (24px).
+font-weight		 font-weight: 700;		font-bold		  Applies a bold font weight.
+color			 color: #4a5568;		text-gray-700		  Sets text color to a gray shade.
+background-color	 background-color: #f7fafc;	bg-gray-100		  Sets background color to a light gray shade.
+text-align		 text-align: center;		text-center		  Centers text horizontally.
+display			 display: flex;			flex			  Applies flexbox to the element.
+flex-direction		 flex-direction: column;	flex-col		  Sets flex direction to column.
+justify-content		 justify-content: center;	justify-center		  Centers flex items along the main axis.
+align-items		 align-items: center;		items-center		  Centers flex items along the cross axis.
+width			 width: 100%;			w-full			  Sets width to 100% of the container.
+height			 height: 100vh;			h-screen		  Sets height to 100% of the viewport height.
+border-radius		 border-radius: 8px;		rounded-md		  Applies a medium border radius (8px).
+border			 border: 1px solid #ddd;	border border-gray-300	  Adds a 1px solid border with a light gray color.
+opacity			 opacity: 0.5;			opacity-50		  Sets element opacity to 50%.
+box-shadow		 box-shadow: 0 4px 6px 		shadow-md		  Adds a medium shadow.
+			 rgba(0, 0, 0, 0.1);
+	
+cursor		 	cursor: pointer;		cursor-pointer		  Changes cursor to pointer on hover.
+transition	 	transition: all 0.3s;		transition duration-300	  Sets transition duration to 0.3s for smooth animations.
+text-transform	 	text-transform: uppercase;	uppercase		  Transforms text to uppercase.
+position	 	position: absolute;		absolute		  Sets element position to absolute.
+top		 	top: 0;				top-0			  Positions element at the top (for positioned elements like absolute).
+overflow		overflow: hidden;		overflow-hidden		  Hides overflow content.
+z-index	   		z-index: 10;			z-10			  Sets the stack order of the element.
